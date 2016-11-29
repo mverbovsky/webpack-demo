@@ -1,0 +1,24 @@
+{
+  "name": "4-loaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --history-api-fallback --inline",
+    "start": "npm run server"
+  },
+  "keywords": [],
+  "author": "verbovsky",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.14",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
+}

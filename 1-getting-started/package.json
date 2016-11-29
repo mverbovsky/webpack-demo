@@ -1,0 +1,22 @@
+{
+  "name": "1-getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --history-api-fallback --inline", 
+    "start": "npm run server"
+  },
+  "keywords": [],
+  "author": "verbovsky",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
+}
