@@ -14,18 +14,10 @@ var config = {
     pageTwo: './page-2/index.js',
     pageThree: './page-3/index.js'
   },
-
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, "dist")
   },
-
-  devServer: {
-    contentBase: path.join(__dirname, "dist"),
-    compress: true,
-    port: 9090
-  },
-  
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
@@ -51,6 +43,11 @@ var config = {
       inject: 'body'
     })
   ],
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 9090
+  }
 };
 
 module.exports = config;

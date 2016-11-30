@@ -1,4 +1,4 @@
-# Getting started
+# Entry points
 Webpack configuration with multiple entry points.
 
 ## webpack configuration
