@@ -1,4 +1,21 @@
-# webpack
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [webpack](#webpack)
+  - [entry](#entry)
+  - [output](#output)
+  - [loaders](#loaders)
+  - [plugins](#plugins)
+- [Tutorial](#tutorial)
+- [Alternatives](#alternatives)
+    - [Task runners](#task-runners)
+    - [Module bundlers](#module-bundlers)
+- [Links](#links)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## webpack
 - Module bundler / build system
 - Configuration-based (webpack.config.js)
 - It considers your assets (styles, images) to be modules themselves, that can be imported, modified, manipulated, and that ultimately can be packed into your final bundle.
@@ -12,7 +29,7 @@
   - bundle splitting
   - asset hashing
 
-## entry
+### entry
 - entry point - starting point for creating a graph of all application's dependencies
 
 Example
@@ -22,7 +39,7 @@ module.exports = {
 }
 ```
 
-## output
+### output
 - describes how to treat bundled code
 
 Example
@@ -36,7 +53,7 @@ module.exports = {
 }
 ```
 
-## loaders
+### loaders
 - loaders in webpack transform files such as .css, .html, .scss, .jpg, etc. into modules as they are added to your dependency graph
 - Two main purposes.
   - Identify what files should be transformed by a certain loader. (`test` property)
@@ -61,7 +78,7 @@ module.exports = {
 }
 ```
 
-## plugins
+### plugins
 -  loaders only execute transforms on a per-file basis, `plugins` are most commonly used (but not limited to) performing actions and custom functionality on "compilations" or "chunks" of your bundled modules
 
 
@@ -90,19 +107,22 @@ module.exports = {
 }
 ``` 
 
-# Alternatives
-### Task runners
+## Tutorial
+1. [Getting started](#1-getting-started/README.md)
+
+## Alternatives
+#### Task runners
 - [Gulp](http://gulpjs.com/)
 - [Grunt](http://gruntjs.com/)
 - [npm](https://www.npmjs.com/)`
 
-### Module bundlers
+#### Module bundlers
 - [Browserify](http://browserify.org/)
 - [rollup.js](http://rollupjs.org/)
 - [lasso.js](https://github.com/lasso-js/lasso)
 - [jspm](http://jspm.io/)
 - [Brunch](http://brunch.io/) (module bundler / task runner)
 
-# Links
+## Links
 - [official site](https://webpack.js.org/)
 
