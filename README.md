@@ -94,7 +94,8 @@ module.exports = {
 ### Task runners
 - [Gulp](http://gulpjs.com/)
 - [Grunt](http://gruntjs.com/)
-- [npm](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)`
+
 ### Module bundlers
 - [Browserify](http://browserify.org/)
 - [rollup.js](http://rollupjs.org/)
