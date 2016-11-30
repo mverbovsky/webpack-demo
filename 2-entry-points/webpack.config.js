@@ -1,31 +1,13 @@
+// Webpack configuration
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = {
+var config = {
   // https://webpack.js.org/configuration/entry-context/#context
   // The base directory, an absolute path, for resolving entry points and loaders from configuration
-  context: path.resolve(__dirname, "app"),
-  /*
-   https://webpack.js.org/configuration/entry-context/#entry
-  
-   The point or points to enter the application. At this point the application starts executing. If an array is passed all items will be executed.
-  
-   A dynamically loaded module is not an entry point.
-  
-   Simple rule: 
-     - one entry point per HTML page. 
-     - SPA: one entry point, 
-     - MPA: multiple entry points.
-  
-    Examples:
-    
-    entry: "./app/entry", // string | object | array
-    entry: ["./app/entry1", "./app/entry2"],
-    entry: {
-      a: "./app/entry-a",
-      b: ["./app/entry-b1", "./app/entry-b2"]
-    }
-  */
+  context: path.resolve(__dirname, "src"),
+  // https://webpack.js.org/configuration/entry-context/#entry
+  // The point or points to enter the application. At this point the application starts executing. If an array is passed all items will be executed.
   entry: {
     app: './index.js',
     pageOne: './page-1/index.js',
@@ -69,5 +51,6 @@ module.exports = {
       inject: 'body'
     })
   ],
-}
+};
 
+module.exports = config;

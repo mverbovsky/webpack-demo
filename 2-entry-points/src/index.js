@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 function createLinkElement(link, text) {
     var element = document.createElement('a');
     var elementText = document.createTextNode(text);
@@ -16,10 +14,7 @@ function createNewLine() {
 function component() {
     var element = document.createElement('div');
 
-    /* lodash is required for the next line to work */
-    element.innerHTML = _.map(['Hello', 'webpack'], function (item) {
-        return item + ' ';
-    });
+    element.innerHTML = 'Hello, webpack!';
     element.appendChild(createNewLine());
 
     element.appendChild(createLinkElement('pageOne.html', 'Page One'));
