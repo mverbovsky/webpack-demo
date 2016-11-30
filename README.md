@@ -1,6 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## Table of Contents
 
 - [webpack](#webpack)
   - [entry](#entry)
@@ -12,8 +10,6 @@
     - [Task runners](#task-runners)
     - [Module bundlers](#module-bundlers)
 - [Links](#links)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## webpack
 - Module bundler / build system
@@ -109,6 +105,10 @@ module.exports = {
 
 ## Tutorial
 1. [Getting started](1-getting-started)
+2. [Entry points](2-entry-points)
+3. [Output](3-output)
+4. [Loaders](4-loaders)
+5. [Optimalizations](5-optimalizations)
 
 ## Alternatives
 #### Task runners
