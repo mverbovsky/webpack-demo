@@ -108,7 +108,7 @@ module.exports = {
 ``` 
 
 ## Tutorial
-1. [Getting started](#1-getting-started/README.md)
+1. [Getting started](1-getting-started/README.md)
 
 ## Alternatives
 #### Task runners
