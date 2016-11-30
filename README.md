@@ -1,15 +1,22 @@
 ## Table of Contents
 
+- [Tutorial](#tutorial)
 - [webpack](#webpack)
   - [entry](#entry)
   - [output](#output)
   - [loaders](#loaders)
   - [plugins](#plugins)
-- [Tutorial](#tutorial)
 - [Alternatives](#alternatives)
     - [Task runners](#task-runners)
     - [Module bundlers](#module-bundlers)
 - [Links](#links)
+
+## Tutorial
+1. [Getting started](1-getting-started)
+2. [Entry points](2-entry-points)
+3. [Output](3-output)
+4. [Loaders](4-loaders)
+5. [Optimalizations](5-optimalizations)
 
 ## webpack
 - Module bundler / build system
@@ -103,12 +110,7 @@ module.exports = {
 }
 ``` 
 
-## Tutorial
-1. [Getting started](1-getting-started)
-2. [Entry points](2-entry-points)
-3. [Output](3-output)
-4. [Loaders](4-loaders)
-5. [Optimalizations](5-optimalizations)
+
 
 ## Alternatives
 #### Task runners
