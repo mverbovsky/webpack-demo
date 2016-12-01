@@ -113,14 +113,20 @@ npm run start
 ```
 
 ## Links
-https://webpack.js.org/concepts/output/
-https://webpack.js.org/configuration/output/
-https://github.com/ampedandwired/html-webpack-plugin
-https://www.jonathan-petitcolas.com/2016/01/23/webpack-html-plugin-in-a-nutshell.html
-http://javascriptplayground.com/blog/2016/07/webpack-html-plugin/
-https://webpack.js.org/plugins/commons-chunk-plugin/
-http://jonathancreamer.com/advanced-webpack-part-1-the-commonschunk-plugin/
-http://stackoverflow.com/questions/30329337/how-to-bundle-vendor-scripts-separately-and-require-them-as-needed-with-webpack
-https://github.com/webpack/docs/wiki/optimization
-https://www.npmjs.com/package/clean-webpack-plugin
-https://github.com/johnagan/clean-webpack-plugin 
+- https://webpack.js.org/concepts/output/
+- https://webpack.js.org/configuration/output/
+
+
+- https://github.com/ampedandwired/html-webpack-plugin
+- https://www.jonathan-petitcolas.com/2016/01/23/webpack-html-plugin-in-a-nutshell.html
+- http://javascriptplayground.com/blog/2016/07/webpack-html-plugin/
+
+
+- https://webpack.js.org/plugins/commons-chunk-plugin/
+- http://jonathancreamer.com/advanced-webpack-part-1-the-commonschunk-plugin/
+- http://stackoverflow.com/questions/30329337/how-to-bundle-vendor-scripts-separately-and-require-them-as-needed-with-webpack
+- https://github.com/webpack/docs/wiki/optimization
+
+
+- https://www.npmjs.com/package/clean-webpack-plugin
+- https://github.com/johnagan/clean-webpack-plugin 
