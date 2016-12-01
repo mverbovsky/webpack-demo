@@ -1,6 +1,4 @@
 # Output
-Webpack configuration with multiple entry points.
-
 ## webpack configuration
 ### `output` | [doc](https://webpack.js.org/configuration/output/)
 - Options affecting the output of the compilation.
@@ -53,7 +51,7 @@ Allows the extraction of all the common modules from different bundles and creat
 
 Example
 ```js
-    new webpack.lib.optimize.CommonsChunkPlugin({
+    new CommonsChunkPlugin({
       // The chunk name of the commons chunk
       name: 'vendor-one',
       // The filename template for the commons chunk

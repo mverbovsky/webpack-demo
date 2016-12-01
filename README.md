@@ -127,4 +127,14 @@ module.exports = {
 
 ## Links
 - [official site](https://webpack.js.org/)
+- articles
+  - http://survivejs.com/webpack/webpack-compared/
+  - https://blog.madewithlove.be/post/webpack-your-bags/
+  - https://sebastiandedeyne.com/posts/2016/adventure-time-with-webpack
+  - http://javascriptplayground.com/blog/2016/10/moving-to-webpack-2/
+  - https://www.toptal.com/front-end/webpack-browserify-gulp-which-is-better
+  - https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.wyijn3ukw
+  - https://gist.github.com/sokra/27b24881210b56bbaff7
+  - https://medium.com/@u_glow/the-numbers-on-webpack-1-vs-2-7f457bb4658c#.fx81pcye7
+  - https://medium.com/@u_glow/things-i-learned-while-upgrading-to-webpack-2-418b99965cbf#.z29d2fo5p
 

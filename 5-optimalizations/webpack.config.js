@@ -1,17 +1,17 @@
+/*global require, module, __dirname:true*/
+/*eslint no-undef: "error"*/
+
 var webpack = require('webpack');
-
-var production = process.env.NODE_ENV === 'production';
-
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
+var CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 // https://github.com/webpack/extract-text-webpack-plugin
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  context: path.resolve(__dirname, "src"),
+  context: path.resolve(__dirname, 'src'),
   entry: {
     app: './app/index.js',
     pageOne: './app/page-1/index.js',
@@ -20,7 +20,7 @@ module.exports = {
   },
   output: {
     filename: '[name].[chunkhash].js',
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, 'dist')
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -57,7 +57,7 @@ module.exports = {
       verbose: true,
       dry: false
     }),
-    new ExtractTextPlugin("bundel.css"),
+    new ExtractTextPlugin('bundel.css'),
     // This plugin looks for similar chunks and files
     // and merges them for better caching by the user
     // new webpack.optimize.DedupePlugin(),
@@ -97,7 +97,7 @@ module.exports = {
       {
         test: /\.js/,
         use: 'babel-loader',
-        exclude: path.resolve(__dirname, "node_modules")
+        exclude: path.resolve(__dirname, 'node_modules')
       },
       /*
       // http://stackoverflow.com/questions/34039826/webpack-style-loader-vs-css-loader
@@ -112,8 +112,8 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract({
-          fallbackLoader: "style-loader",
-          loader: "css-loader"
+          fallbackLoader: 'style-loader',
+          loader: 'css-loader'
         })
       },
       {
@@ -127,12 +127,12 @@ module.exports = {
         enforce: 'pre',
         test: /\.js?$/,
         use: 'eslint-loader',
-        exclude: path.resolve(__dirname, "node_modules")
+        exclude: path.resolve(__dirname, 'node_modules')
       }
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 9090
   },
