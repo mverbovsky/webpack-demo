@@ -1,4 +1,4 @@
-# Output
+# Loaders | Modules
 Webpack configuration with different loaders.
 
 ## webpack configuration

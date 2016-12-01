@@ -1,4 +1,4 @@
-# Output
+# optimalizations
 Webpack configuration with optimalizations.
 
 ## webpack configuration
