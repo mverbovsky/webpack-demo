@@ -5,7 +5,8 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var config = {
   // https://webpack.js.org/configuration/entry-context/#context
   // The base directory, an absolute path, for resolving entry points and loaders from configuration
-  context: path.resolve(__dirname, "src"),
+  context: path.resolve(__dirname, 'src'),
+
   // https://webpack.js.org/configuration/entry-context/#entry
   // The point or points to enter the application. At this point the application starts executing. If an array is passed all items will be executed.
   entry: {
@@ -14,10 +15,12 @@ var config = {
     pageTwo: './page-2/index.js',
     pageThree: './page-3/index.js'
   },
+
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, 'dist')
   },
+
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
@@ -43,8 +46,9 @@ var config = {
       inject: 'body'
     })
   ],
+
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 9090
   }

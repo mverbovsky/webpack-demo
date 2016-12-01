@@ -2,11 +2,11 @@
 Webpack configuration with multiple entry points.
 
 ## webpack configuration
-### `context`
-The base directory, an absolute path, for resolving entry points and loaders from configuration
+### `context` | [doc](https://webpack.js.org/configuration/entry-context/#context)
+The base directory, an absolute path, for resolving entry points and loaders from configuration.
 
-### `entry`
-The point or points to enter the application. At this point the application starts executing. If an array is passed all items will be executed.`
+### `entry` | [doc](https://webpack.js.org/configuration/entry-context/#entry)
+The point or points to enter the application. 
 
 A dynamically loaded module is not an entry point.
  
